@@ -12,6 +12,9 @@ body{
     font-size: 50px;
     font-weight: 100;
 }
+.p2{
+    font-size: 20px;
+}
 a{
     color: skyblue;
 }
@@ -27,14 +30,15 @@ a{
 .nav ul li{
     list-style: none;
     transition: 0.4s;
+    padding: 0px 0px 5px;
 }
 .nav ul li span{
     text-align: center;
-    padding: 1px;
+    padding: 10px 0px 0px;
     display: block;
 }
 .nav ul li:hover{
-    transform: scale(1.1);
+    transform: translateY(-5px);
     cursor: pointer;
 }
 .random{
@@ -46,12 +50,36 @@ a{
     box-shadow: 0px 0px 10px gray;
     border-radius: 5px;
 }
-.detail{
-    height: 100px;
+
+#detail{
+    height: 60px;
     width: 100%;
-    margin-top: 90px;
-    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1000;
+    margin-top: 120px;
+    color: rgba(128, 128, 128, 0.459);
 }
+
+#detail ul li{
+    list-style: none;
+    transition: 0.2s;
+}
+
+#detail ul li span{
+    text-align: center;
+    padding: 0px 0px 0px;
+    display: block;
+}
+
+#detail ul li:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+    border-top: 3px solid greenyellow;
+}
+
 .lern{
     height: 250px;
     width: 50%;
