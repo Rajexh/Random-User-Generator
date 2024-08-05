@@ -51,33 +51,31 @@ a{
     border-radius: 5px;
 }
 
-#detail{
-    height: 60px;
+.random-details{
+    height: 100px;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    color: black;
     align-items: center;
     text-align: center;
-    z-index: 1000;
-    margin-top: 120px;
-    color: rgba(128, 128, 128, 0.459);
+    font-size: 25px;
 }
 
-#detail ul li{
-    list-style: none;
+.random-info{
+    height: 88px;
+    width: 100%;
+    align-items: center;
+}
+.random-info i{
+    color: rgba(128, 128, 128, 0.503);
+    font-size: 30px;
+    cursor: pointer;
+    padding: 30px;
     transition: 0.2s;
 }
 
-#detail ul li span{
-    text-align: center;
-    padding: 0px 0px 0px;
-    display: block;
-}
 
-#detail ul li:hover{
+.random-info i:hover{
     transform: translateY(-10px);
-    cursor: pointer;
-    border-top: 3px solid greenyellow;
 }
 
 .lern{
@@ -91,13 +89,19 @@ a{
     text-align: center;
     color: gray;
 }
+.lern p strong{
+    font-weight: bolder;
+}
 .lern .p1{
     color: black;
-    font-size: 24px;    
+    font-size: 24px;   
+    font-weight: 100; 
 }
 .lern button{
-    padding: 20px 40px;
+    padding: 13px 30px;
     border: none;
+    cursor: pointer;
+    margin-top: 20px;
     color: white;
     font-size: 20px;
     border-radius: 5px;

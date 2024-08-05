@@ -61,38 +61,18 @@
        <p> A free, <a href="">Open Source</a> API for generating random user data.Like Loren Ipsum,but for people.</p>
     </div>
         <div class="random">
-            <img src="st.jpg" height="180" style="border-radius: 50%; margin-top: 50px; " alt="">
-            <div id="detail">
-                    <ul>
-                        <li><span class="material-symbols-outlined">
-                            person
-                            </span>Me</li>
-                    </ul>
-                    <ul>
-                        <li><span class="material-symbols-outlined">
-                            mail
-                            </span>Mail</li>
-                    </ul>
-                    <ul>
-                        <li><span class="material-symbols-outlined">
-                            calendar_month
-                            </span>DOB</li>
-                    </ul>
-                    <ul>
-                        <li><span class="material-symbols-outlined">
-                            location_on
-                            </span>Location</li>
-                    </ul>
-                    <ul>
-                        <li><span class="material-symbols-outlined">
-                            call
-                            </span>Contact</li>
-                    </ul>
-                    <ul>
-                        <li><span class="material-symbols-outlined">
-                            lock
-                            </span>Password</li>
-                    </ul>
+            <img src="" height="150px" width="150px" id="image" style="border-radius: 50%; margin-top: 50px; border: 1px solid gray; " alt="">
+            <div class="random-details">
+                <p class="random-desc" id="random-name"></p>
+                <p class="random-information" id="ran-name"></p>
+            </div>
+            <div class="random-info">
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-regular fa-envelope"></i>
+                <i class="fa-regular fa-calendar-days"></i>
+                <i class="fa-solid fa-map-location-dot"></i>
+                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-lock"></i>
             </div>
         </div>
     </div>
@@ -102,5 +82,11 @@
                 Check out our other service RandomAPI!</p>
                 <button>Learn More</button>
     </div>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener("contextmenu",function(event){
+            event.preventDefault();
+        })
+    </script>
 </body>
 </html>
