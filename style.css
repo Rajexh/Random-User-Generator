@@ -27,6 +27,10 @@ a{
     align-items: center;
     z-index: 1000;
 }
+.nav a{
+    color: white;
+    text-decoration: none;
+}
 .nav ul li{
     list-style: none;
     transition: 0.4s;
@@ -106,4 +110,77 @@ a{
     font-size: 20px;
     border-radius: 5px;
     background: greenyellow;
+}
+
+@media (width <= 360px) {
+    .containor{
+    height: 450px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #2c2e31;
+    }
+    .nav{
+        height: 60px;
+        width: 100%;
+        place-items: end;
+        display: grid;
+        align-items: end;
+        overflow: hidden;
+    }
+    .random{
+        height: 50px;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0px 0px 10px gray;
+        border-radius: 5px;
+        margin-left: 5px;
+    }
+    .lern{
+        height: 300px;
+        width: 100%;
+        margin-top: 630px;
+        margin-left: 0px;
+        margin-bottom: 150px;
+        box-shadow: 0px 0px 5px  gray;
+        border-radius: 5px;
+        text-align: center;
+        color: gray;
+    }
+    .random-info i:hover{
+        transform: translateY(-10px);
+    }
+}
+@media (height <= 800px) {
+    .containor{
+        height: 450px;
+        width: 100%;
+        text-align: center;
+        color: white;
+        background-color: #2c2e31;
+        }
+    .nav{
+        
+    }
+    .random{
+        height: 550px;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0px 0px 10px gray;
+        border-radius: 5px;
+    }
+    .lern{
+        height: 300px;
+        width: 100%;
+        margin-top: 600px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+        box-shadow: 0px 0px 5px  gray;
+        border-radius: 5px;
+        text-align: center;
+        color: gray;
+    }
+    .random-info i:hover{
+        transform: translateY(-15px);
+    }
 }
